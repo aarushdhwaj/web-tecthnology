@@ -1,0 +1,71 @@
+h1{
+ text-align: center; 
+ text-decoration: underline;
+ letter-spacing: 10px;
+ background-color:purple;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(74, 0, 212, 0.788);
+    line-height: 2.4;
+    font-family:sans-serif;
+    
+} 
+
+
+button{
+    font-size: medium;
+    font-style: normal;
+    background-color: firebrick;
+    color:white;
+    
+
+}
+input{
+    font-family: sans-serif;
+    font: optional;
+    font-size: small;
+    border: black;
+    color: darkviolet;
+}
+:placeholder{
+    font-size: small;
+    background-color: black;
+    color:white;
+}
+input[type=password]{
+    border: black;
+    text-decoration-color: black;
+}
+button:hover{
+    color: white;
+    background-color: lime;
+}
+button:active{
+    background-color: black;
+    color:white;
+}
+button{
+    padding-left: 30px;
+    border-radius: 30px;
+}
+div{
+      width: 300px;
+      height: 300px;
+      background-color:green;      
+      position: relative;
+      down:20px;
+      right: 20px;
+      up:20px;
+      left: 20px;
+      transition: 1s;
+      
+      
+}
+div:hover{
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(360deg) ;
+    
+}
