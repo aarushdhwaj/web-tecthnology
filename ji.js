@@ -6,7 +6,7 @@ const person ={
     lastname:`Dhwaj`,
     birthdate:`7 may 2008`,
     Gander:`Male`,
-    job:`nothing`
+    job:`unknow`
 }
 for (let i = -1; i<= 10; i++) {
     console.log("hello there")
