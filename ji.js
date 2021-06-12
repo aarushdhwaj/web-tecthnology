@@ -37,3 +37,4 @@ function repeat(a,b) {
 } console.log(result);
 
 }
+console.log(test)
